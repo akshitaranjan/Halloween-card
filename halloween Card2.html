@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>
+        Halloween Card2
+        </title>
+        <a href="halloween Card.html">
+    <button>Back to Page 1</button>
+</a>
+        <link rel="stylesheet" href="styleHC2.css">
+    <!-- This container is for the video-->
+        <div class="video">
+            <br>
+            <a href="https://www.youtube.com/watch?v=sVjk5nrb_lI">SSS</a><br>
+        </div>
+    </head>
+    <h1>
+        <center>
+            Happy Halloween🕷️! <br> I hope you have an amazing<br>Halloween,and get lots of<br> candy🍬🍫!
+        </center>
+    </h1>
+    <center>
+        <img src="hCpic.ico" width=20%>
+    </center>
+    <h2>
+        <center>
+            Top 5 Halloween candies<li>Kitkats</li> <li>M&MS</li><li>Sour Patch Kids</li><li>Jolly Ranchers</li><li>Nerd Clusters</li>
+        </center>
+    </h2>
+     <button onclick="celebrate()">Celebrate 🎉</button>
+
+<script>
+function celebrate() {
+    for (let i = 0; i < 30; i++) {
+        let confetti = document.createElement("div");
+
+        confetti.innerHTML = "🎉";
+        confetti.style.position = "fixed";
+        confetti.style.left = Math.random() * 100 + "vw";
+        confetti.style.top = "-20px";
+        confetti.style.fontSize = "25px";
+        confetti.style.animation = "fall 3s linear";
+
+        document.body.appendChild(confetti);
+
+        setTimeout(() => {
+            confetti.remove();
+        }, 3000);
+    }
+}
+    
+</script>
+    <audio controls
+        <source src="halloweenAudio.mp3" type="audio/mpeg"
+    </audio>
+    <br><br>
+    <a href="halloween Card.html">
+    </a>
+   </html>

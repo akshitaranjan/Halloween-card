@@ -1,0 +1,27 @@
+ <html>
+   <head> 
+     <title>
+         Halloween card
+     </title>
+       <link rel="icon" type="x-icon" href="pumpkin.ico">
+        <link rel="stylesheet" href="styleHC.css">
+    </head>
+      <body>
+        <img src="cat2.jpg" width=30%>
+                <br>
+                <h1>Happy Halloween!!</h1>
+    <button onclick="goToNextPage()">Next Page</button>
+<title>Next Page Confirmation</title>
+    <script>
+        function goToNextPage() {
+            const confirmation = confirm(
+                "Open the card"
+            );
+
+            if (confirmation) {
+                window.location.href = "halloween Card2.html";
+            }
+        }
+    </script>
+     </body>
+ </html>

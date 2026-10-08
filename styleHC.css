@@ -1,0 +1,23 @@
+/*Center the image on the screen*/
+body{
+    background-color:#E66C2C;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    margin:0;
+    font-family: Cursive
+}
+.signature{
+    font-style: italic;
+    font-weight: bold;
+    color: pastalblue;
+    margin-top: 20px;
+    font-family: fantasy;
+}
+/*Style the paragraph*/
+p{
+    color: #333333;
+    font-size: 32px;
+}
